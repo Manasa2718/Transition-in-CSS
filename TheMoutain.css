@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url(../../html/home/leftlargemoutainNight.png),url(../../html/home/MoonTransition.png),url(../../html/home/leftsmallmoutainNight.png),url(../../html/home/sunTransition.png),url(../../html/home/rightsmallmoutainNight.png),url(../../html/home/crow.gif),url(../../html/home/rightlargemoutainNight.png),url(../../html/home/backgrounNight.png);
+    background-size: 750px,15%,450px,50px,450px,80px,750px,100%;
+    background-position:0px 150px,10px 10px,450px 300px,730px 540px,650px 300px,750px 400px,800px 150px,center;
+    background-repeat: no-repeat;
+    transition: all 10s;
+    transition-delay: 2s;
+}
+header:hover{
+    width: 100%;
+    height: 600px;
+    background-image: url(../../html/home/leftlargemoutain.png),url(../../html/home/MoonTransition.png),url(../../html/home/leftsmallmoutain.png),url(../../html/home/sunTransition.png),url(../../html/home/rightsmallmoutain.png),url(../../html/home/crow.gif),url(../../html/home/rightlargemoutain.png),url(../../html/home/sky.png);
+    background-size: 750px,1%,450px,300px,450px,100px,750px,100%;
+    background-position:-100px 190px,300px 300px,450px 300px,590px 10px,650px 300px,2500px 100px,900px 200px,center;
+    background-repeat: no-repeat;
+}
